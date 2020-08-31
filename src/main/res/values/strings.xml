@@ -1,0 +1,56 @@
+<resources>
+    <string name="sag_cargando">"Cargando..."</string>
+    <string name="app_name">Sagamo</string>
+    <string name="app_name_actividad">Actividades recientes</string>
+
+    <string name="sag_hint_correo">Correo</string>
+    <string name="sag_hint_contrasena">Contraseña</string>
+    <string name="sag_hint_nombres">Nombres</string>
+    <string name="sag_hint_apellido">Apellidos</string>
+    <string name="sag_hint_celular">Celular</string>
+    <string name="sag_hint_cedula">Cédula</string>
+    <string name="sag_hint_nombre">Nombre</string>
+    <string name="sag_hint_tipo">Tipo</string>
+    <string name="sag_hint_fecha_plazo">Fecha de entrega</string>
+    <string name="sag_hint_fecha_creacion">Fecha de creación</string>
+    <string name="sag_hint_descripcion">Descripción</string>
+    <string name="sag_hint_paralelo">Paralelo</string>
+    <string name="sag_hint_materia">Materia</string>
+    <string name="sag_hint_estudiante">Estudiante</string>
+    <string name="sag_hint_dialogo">Diálogo</string>
+    <string name="sag_hint_calificacion">Calificación cualitativa</string>
+
+
+
+    <string name="sag_error_contrasena">Mínimo 8 caracteres</string>
+    <string name="sag_error_campos">Introduzca datos en los campos</string>
+    <string name="sag_error_guardar">Error al almacenar la información</string>
+    <string name="sag_error_inesperado">Ha ocurrido un error inesperado</string>
+    <string name="sag_sucess_guardar">Información almacenada correctamente</string>
+    <string name="sag_sucess_operacion">Operación realizada exitosamente</string>
+    <string name="sag_error_seleccion">Seleccione algún elemento</string>
+    <string name="sag_error_general">Falta pasos por completar</string>
+    <string name="sag_error_logueo">Datos incorrectos, inténtelo más tarde</string>
+    <string name="sag_salir">Sesión cerrada exitosamente</string>
+
+    <string name="sag_ic_ayuda">Ayuda</string>
+    <string name="sag_ic_salir">Salir</string>
+    <string name="sag_ic_panel_actividad">Actividades</string>
+    <string name="sag_ic_panel_informacion">Información</string>
+
+    <string name="sag_button_ingresar">Siguiente</string>
+    <string name="sag_button_cancelar">Cancelar</string>
+    <string name="sag_button_registro_opc">Registro</string>
+    <string name="sag_button_ingreso_opc">Ingresar</string>
+
+    <string name="sag_titulo_actividad">Actividad académica</string>
+    <string name="sag_titulo_registro">Registro de usuario (exclusivo para Representantes)</string>
+
+    <string name="sag_subtitulo_actividad">Datos de la actividad</string>
+    <string name="sag_subtitulo_clase">Listado de clases</string>
+    <string name="sag_subtitulo_estudiante">Listado de estudiantes</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

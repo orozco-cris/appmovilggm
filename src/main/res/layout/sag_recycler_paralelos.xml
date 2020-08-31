@@ -1,0 +1,65 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:minHeight="64dp"
+    >
+
+    
+    <TextView
+        android:id="@+id/txvRcvMateria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="Materia"
+        android:paddingTop="16dp"
+        android:paddingEnd="16dp"
+        android:maxLines="1"
+        android:textAppearance="?attr/textAppearanceSubtitle1"
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp"/>
+
+    <TextView
+        android:id="@+id/txvRcvParalelo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txvRcvMateria"
+        android:layout_gravity="center_vertical"
+        android:text="Paralelo"
+        android:maxLines="2"
+        android:paddingLeft="16dp"
+        android:textAppearance="?attr/textAppearanceBody2"
+        />
+
+    <View
+        android:layout_below="@+id/txvRcvParalelo"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:background="#eeee" />
+
+
+    <com.google.android.material.radiobutton.MaterialRadioButton
+        android:id="@+id/rb_select_paralelo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_alignParentRight="true"
+
+        >
+
+    </com.google.android.material.radiobutton.MaterialRadioButton>
+
+    <TextView
+        android:id="@+id/txvRcvId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rb_select_paralelo"
+        android:layout_alignParentRight="true"
+        android:visibility="invisible"
+        />
+
+</RelativeLayout>

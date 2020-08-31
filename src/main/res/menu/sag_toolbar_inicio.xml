@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/next"
+        android:icon="@drawable/sag_icon_home_work_white"
+        android:title="@string/sag_ic_panel_actividad"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/help"
+        android:icon="@drawable/sag_icon_info_white"
+        android:title="@string/sag_ic_panel_informacion"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/salir"
+        android:icon="@drawable/sag_icon_exit_to_app_white"
+        android:title="@string/sag_ic_salir"
+        app:showAsAction="always"/>
+
+
+</menu>

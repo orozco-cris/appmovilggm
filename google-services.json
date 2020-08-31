@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1047882370522",
+    "firebase_url": "https://sagamo-90190.firebaseio.com",
+    "project_id": "sagamo-90190",
+    "storage_bucket": "sagamo-90190.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1047882370522:android:b54becb5ed61362a3e04e3",
+        "android_client_info": {
+          "package_name": "sagamo.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1047882370522-o3u0t6lfs3mlt6fpffe4hg7iin97tbrl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sagamo.app",
+            "certificate_hash": "6a787a5107f7bc6f068df113168a07e9fa0a77ef"
+          }
+        },
+        {
+          "client_id": "1047882370522-9k80tkr0t2dn2tctmgf774oj94eabas7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByjjYgwRkxHXy2bAvcSqcntWDw2CavWiM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1047882370522-9k80tkr0t2dn2tctmgf774oj94eabas7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

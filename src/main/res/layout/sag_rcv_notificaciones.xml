@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/cont_estudiantes"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:minHeight="64dp">
+
+    <TextView
+        android:id="@+id/txv_rcv_nombre_act"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="Nombre"
+        android:paddingTop="16dp"
+        android:paddingEnd="16dp"
+        android:maxLines="2"
+        android:textAppearance="?attr/textAppearanceSubtitle1"
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp"/>
+
+    <TextView
+        android:id="@+id/txv_rcv_fechap_act"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txv_rcv_nombre_act"
+        android:layout_gravity="center_vertical"
+        android:text="Fecha plazo"
+        android:maxLines="1"
+        android:paddingLeft="16dp"
+        android:textAppearance="?attr/textAppearanceBody2"
+        />
+
+    <View
+        android:layout_below="@+id/txv_rcv_fechap_act"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:background="#eeee" />
+
+</RelativeLayout>
